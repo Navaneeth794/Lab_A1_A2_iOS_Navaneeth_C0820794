@@ -101,7 +101,7 @@ class FirstScreenVc: UIViewController {
                     let product  = Products(context: context)
                     product.product_desc = "Car \(i)"
                     product.product_id = "00\(i)"
-                        provider2.provider_name = "BMW"
+                        provider1.provider_name = "BMW"
                         product.product_name = "Car \(i)"
                         product.provider = provider2
                 }
