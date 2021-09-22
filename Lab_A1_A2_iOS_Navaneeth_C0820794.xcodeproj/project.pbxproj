@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		048E51EE26FAB33E0022528F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51ED26FAB33E0022528F /* AppDelegate.swift */; };
 		048E51F026FAB33E0022528F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51EF26FAB33E0022528F /* SceneDelegate.swift */; };
-		048E51F226FAB33E0022528F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E51F126FAB33E0022528F /* ViewController.swift */; };
 		048E51F526FAB33E0022528F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51F326FAB33E0022528F /* Main.storyboard */; };
 		048E51F826FAB33E0022528F /* Lab_A1_A2_iOS_Navaneeth_C0820794.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E51F626FAB33E0022528F /* Lab_A1_A2_iOS_Navaneeth_C0820794.xcdatamodeld */; };
 		048E51FA26FAB33E0022528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E51F926FAB33E0022528F /* Assets.xcassets */; };
 		048E51FD26FAB33E0022528F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E51FB26FAB33E0022528F /* LaunchScreen.storyboard */; };
+		048E520926FAB6570022528F /* FirstScreenVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E520826FAB6570022528F /* FirstScreenVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048E51EA26FAB33E0022528F /* Lab_A1_A2_iOS_Navaneeth_C0820794.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Navaneeth_C0820794.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E51ED26FAB33E0022528F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048E51EF26FAB33E0022528F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048E51F126FAB33E0022528F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048E51F426FAB33E0022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048E51F726FAB33E0022528F /* Lab_A1_A2_iOS_Navaneeth_C0820794.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Navaneeth_C0820794.xcdatamodel; sourceTree = "<group>"; };
 		048E51F926FAB33E0022528F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048E51FC26FAB33E0022528F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048E51FE26FAB33E0022528F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048E520826FAB6570022528F /* FirstScreenVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreenVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				048E51ED26FAB33E0022528F /* AppDelegate.swift */,
 				048E51EF26FAB33E0022528F /* SceneDelegate.swift */,
-				048E51F126FAB33E0022528F /* ViewController.swift */,
+				048E520826FAB6570022528F /* FirstScreenVc.swift */,
 				048E51F326FAB33E0022528F /* Main.storyboard */,
 				048E51F926FAB33E0022528F /* Assets.xcassets */,
 				048E51FB26FAB33E0022528F /* LaunchScreen.storyboard */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E51F226FAB33E0022528F /* ViewController.swift in Sources */,
 				048E51EE26FAB33E0022528F /* AppDelegate.swift in Sources */,
+				048E520926FAB6570022528F /* FirstScreenVc.swift in Sources */,
 				048E51F826FAB33E0022528F /* Lab_A1_A2_iOS_Navaneeth_C0820794.xcdatamodeld in Sources */,
 				048E51F026FAB33E0022528F /* SceneDelegate.swift in Sources */,
 			);
